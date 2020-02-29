@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Hammersmith One");
+body {
+  font-family: "Hammersmith One", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: right;
+  margin-top: -20px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.ads {
+  background-color: aqua;
+  display: flex;
+  width: 100%;
+  justify-content: stretch;
+}
+
+.plus {
+  color: white;
+  font-size: 82px;
+}
+.name {
+  color: whitesmoke;
+  font-size: 24px;
+  margin-top: 25px;
+  margin-bottom: -30px;
+}
+
+.ads > div {
+  height: 150px;
+  width: 150px;
+  flex: 1;
+  background-color: black;
+  border-width: thick;
+  border-color: transparent;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ads > div:active {
+  background-color: whitesmoke;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+}
